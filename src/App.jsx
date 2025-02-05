@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='bg-gray-300' >   
+    <div className='bg-gray-200' >   
     <Navbar/>
     <Hero/>
     <Insights/>
