@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='bg-[url("/bg.jpg")] bg-cover'>
+    <div >   
     <Navbar/>
     <Hero/>
     <Insights/>
@@ -22,5 +22,5 @@ const App = () => {
     </div>
   )
 }
-
+// className='bg-[url("/bg.jpg")] bg-cover'
 export default App
