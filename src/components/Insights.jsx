@@ -63,12 +63,12 @@ initial="hidden" whileInView="visible" variants={cardVariant} viewport={{amount:
           <motion.div
           initial="hidden" whileInView="visible" variants={cardVariant} viewport={{amount: 0.5}}
             custom={index}
-            className="flex flex-col w-full md:flex-1 p-4 border-4 border-black/75 rounded-xl space-y-4"
+            className="flex flex-col w-full md:flex-1 p-3 border-4 border-black/75 rounded-3xl space-y-3"
             key={index}
           >
             <div className="flex justify-between items-center">
               <div className="space-y-2">
-                <button className="p-3 rounded-full bg-violet-300 text-violet-800">
+                <button className="p-2 rounded-full bg-violet-300 text-violet-800">
                   {React.createElement(insights.icon)}
                 </button>
                 <h1 className="text-xl font-bold">{insights.title}</h1>

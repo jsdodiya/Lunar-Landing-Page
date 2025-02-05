@@ -34,7 +34,7 @@ const Stats = () => {
           Remote professionals provide essential services to businesses
           globally, delivering support from any location.
         </p>
-        <div className='flex'>
+        <div className='flex space-x-3'>
           <div className='space-y-5'>
             <div className='flex items-center space-x-2'>
             <span className='p-3 rounded-full bg-violet-300 text-violet-800'><FaChartLine/></span>

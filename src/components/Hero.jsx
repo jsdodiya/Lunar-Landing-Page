@@ -35,7 +35,7 @@ const Hero = () => {
             opacity:1,
             x:0,
             transition:{
-                duration:1.0,
+                duration:0.5,
                 ease: "easeInOut",
             }
         }
