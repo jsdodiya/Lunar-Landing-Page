@@ -33,7 +33,7 @@ const Insights = () => {
   ];
 
   return (
-    <div className="w-4/5 m-auto py-18 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
+    <div className="w-4/5 m-auto py-18 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 mb-10">
       <div className="md:w-1/3 space-y-4">
         <motion.h2
         initial="hidden" whileInView="visible" variants={cardVariant} viewport={{amount: 0.5}}
