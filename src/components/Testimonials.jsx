@@ -47,7 +47,7 @@ const Testimonials = () => {
           variants={testmtvariant}
           className="space-y-5"
         >
-          <h1 className="text-center text-lg">____Client Reviews</h1>
+          <h1 className="text-center text-lg font-black md:text-2xl">____Client Reviews</h1>
           <h2 className="text-sm md:text-xl md:font-semibold text-center">
             Our clients' trust and satisfaction drive us forward.
             <br />

@@ -58,7 +58,7 @@ initial="hidden" whileInView="visible" variants={cardVariant} viewport={{amount:
           </div>
         </div>
       </div>
-      <div className="md:w-1/2 flex flex-col md:flex-row md:space-x-4 md:space-y-0">
+      <div className="md:w-1/2 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0  ">
         {insightsData.map((insights, index) => (
           <motion.div
           initial="hidden" whileInView="visible" variants={cardVariant} viewport={{amount: 0.5}}

@@ -28,8 +28,8 @@ const Stats = () => {
       src="/girl1.jpg" alt="" className='w-[85%] rounded-2xl' />
       </div>
       <div className='md:w-1/2 space-y-8'>
-        <h1 className='text-4xl md:text-6xl font-bold'>Over 30,000</h1>
-        <p className='md:text-4xl font-bold'>
+        <h1 className='text-3xl md:text-5xl font-bold'>Over 30,000</h1>
+        <p className='md:text-4xl font-semibold md:font-bold'>
           {" "}
           Remote professionals provide essential services to businesses
           globally, delivering support from any location.
